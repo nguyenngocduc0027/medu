@@ -1,30 +1,77 @@
-/vendor/
-node_modules/
-npm-debug.log
-yarn-error.log
+# =========================
 
-# Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
+# OS
 
-# Laravel 5 & Lumen specific
-public/storage
-public/hot
+# =========================
 
-# Laravel 5 & Lumen specific with changed public path
-public_html/storage
-public_html/hot
+.DS_Store
+Thumbs.db
 
-storage/*.key
+# =========================
+
+# ENV (NEVER COMMIT)
+
+# =========================
+
 .env
-Homestead.yaml
-Homestead.json
-/.vagrant
-.phpunit.result.cache
+.env.*
+!.env.example
+
+# =========================
+
+# Logs
+
+# =========================
+
+*.log
+
+# =========================
+
+# Node / Vue (build on VPS)
+
+# =========================
+
+node_modules/
+dist/
+.vite/
+
+# =========================
+
+# Laravel
+
+# =========================
+
+/vendor/
+/storage/logs/*
+/storage/framework/*
+/bootstrap/cache/*.php
 
 /public/build
-/storage/pail
-.env.backup
-.env.production
-.phpactor.json
-auth.json
+/public/hot
+/public/storage
+
+# =========================
+
+# Cache / test
+
+# =========================
+
+.phpunit.result.cache
+
+# =========================
+
+# IDE
+
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+
+# Misc
+
+# =========================
+
+*.zip
+*.tar
