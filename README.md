@@ -87,7 +87,7 @@ Database:
 
 ### 1. Clone repo
 
-git clone https://github.com/your-username/medu.git
+git clone https://github.com/nguyenngocduc0027/medu.git
 
 ### 2. Environment
 
